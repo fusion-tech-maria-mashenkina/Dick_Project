@@ -1,0 +1,142 @@
+.firstClass {
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.secondClass {
+  background: green;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.secondClass:hover {
+  background: red;
+  width: 400px;
+  height: 400px;
+}
+
+.thirdClass {
+  background: purple;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.inputNumber {
+  background: lightgrey;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.textNumber {
+  width: 80%;
+  height: 50px;
+  font-size: 30pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.buttonMinus {
+  background: lightblue;
+  width: 50px;
+  height: 50px;
+  font-size: 30pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.buttonPlus {
+  background: lightgreen;
+  width: 50px;
+  height: 50px;
+  font-size: 30pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.buttonClear {
+  background: lightgrey;
+  width: 200px;
+  height: 20px;
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.firstClass,
+.secondClass,
+.thirdClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InputContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  column-gap: 20px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.marginBottomClass {
+  margin-bottom: 20px;
+}
+
+.dinamycDiv1 {
+  background: lightblue;
+  width: 50px;
+  height: 50px;
+  font-size: 30pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.inputNumber[type=number]::-webkit-inner-spin-button,
+.inputNumber[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
