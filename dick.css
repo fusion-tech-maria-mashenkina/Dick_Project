@@ -140,3 +140,7 @@
   -webkit-appearance: none;
   margin: 0;
 }
+
+.test {
+  height: 50px;
+}
